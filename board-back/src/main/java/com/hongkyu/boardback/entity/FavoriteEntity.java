@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "favorite")
+@Entity
 @Table(name = "favorite")
 public class FavoriteEntity {
     @Id 

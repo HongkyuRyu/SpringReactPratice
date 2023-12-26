@@ -17,8 +17,9 @@ import lombok.NoArgsConstructor;
 @Table(name = "board")
 public class BoardEntity {
     
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int boardNumber;
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer boardNumber;
     private String title;
     private String content;
     private String writeDatetime;

@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "search_log")
 public class SearchLogEntity {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int sequence;
+    private Integer sequence;
     private String searchWord;
     private String relationWord;
     private int relation;

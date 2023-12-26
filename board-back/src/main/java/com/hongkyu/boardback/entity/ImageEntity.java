@@ -15,6 +15,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "image")
 public class ImageEntity {
     @Id
-    private int boardNumber;
+    private Integer boardNumber;
     private String image;
 }
